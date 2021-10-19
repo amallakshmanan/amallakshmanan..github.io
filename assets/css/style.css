@@ -332,7 +332,7 @@ button.menu-close {
     opacity: 0;
     pointer-events: none;
     transform: translateY(100%);
-    transition: 4s ease-out;
+    transition: .4s ease-out;
 }
 
 .mainmenu-open .mainmenu-primary li {
@@ -740,6 +740,10 @@ li {
     font-family: 'Anton', sans-serif;
 }
 
+.u-h1 br {
+    display: none;
+}
+
 .u-h1 p {
     /*
     -webkit-background-clip: text;
@@ -1054,5 +1058,8 @@ a:hover::before {
     }
     .mainmenu-primary li a {
         font-size: 25px;
+    }
+    .u-h1 br {
+        display: block;
     }
 }
