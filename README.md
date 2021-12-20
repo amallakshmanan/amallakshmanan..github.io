@@ -1,1 +1,0 @@
-# amallakshmanan.github.io
